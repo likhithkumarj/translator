@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.translateForm{
+    flex-direction: column;
+    gap: 1em;
+}
+body{
+    background: #5da9e9;
+}
+.langShow{
+    padding: 1em;
+    margin: 0.5em;
+    background-color: #fff;
+    border-radius: 1em;
+    gap: 1em;
+}
+.fa-bars{
+    margin: 1em;
+}
+.target-lang , .auto{
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: bolder;
+    color: #fff;
+    background: #0060a0;
+    padding: .5em;
+    border-radius: 1em;
+}
+.auto{
+    padding: .5em 1.5em;
+}
+.fromHolder textarea{
+    outline: none;
+    border: none;
+    width: 17em;
+    height: 9em;
+    resize: none;
+}
+.fromHolder , .toHolder{
+    background-color: #fff;
+    width: 18em;
+    height: 10em;
+    padding: .5em 1em ;
+    border-radius: 1em;
+}
+.resultHolder{
+    gap: 1em;
+}
+.submit{
+    padding: 0.5em 2em;
+    background-color: #0060a0;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 1em;
+    font-weight: bold;
+    font-size: 1em;
+}

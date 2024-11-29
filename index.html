@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b7514a30f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <i class="fa-solid fa-bars" onclick="mobHeaderOpen()"></i>
+    <div class="head cen">
+        <h1>Translate</h1>
+    </div>
+    <div id="translateForm" class="cen translateForm">
+        <div class="langShow cen">
+            <p class="auto">Auto Detect</p>
+            <p>></p>
+            <select id="target-lang" class="target-lang">
+                <option value="" disabled selected>language</option>
+            </select><br>
+        </div>
+        <div class="resultHolder cen">
+            <div class="fromHolder">
+                <h2>From</h2>
+                <textarea id="text" placeholder="Enter text to translate..." required></textarea>
+            </div>
+            <div class="toHolder">
+                <h2>To</h2>
+                <p id="output"></p>
+            </div>
+        </div>
+        <button onclick="hello(event)" class="submit">Translate</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
